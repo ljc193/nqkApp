@@ -1,0 +1,58 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/guidePage/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/union/index",
+			"style": { 
+				"navigationBarTitleText": "hello"
+			}
+		}
+	    ,{
+            "path" : "pages/user/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "dd"
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#1C2632",
+		"borderStyle": "none",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/index",
+			"iconPath": "static/tab/home.png",
+			"selectedIconPath": "static/tab/home_a.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/union/index",
+			"iconPath": "static/tab/union.png",
+			"selectedIconPath": "static/tab/union_a.png",
+			"text": "联盟"
+		}, {
+			"pagePath": "pages/user/index",
+			"iconPath": "static/tab/user.png",
+			"selectedIconPath": "static/tab/user_a.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

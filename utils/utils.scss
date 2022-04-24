@@ -1,0 +1,70 @@
+
+// 状态栏样式
+.status_bar {
+	height: var(--status-bar-height);
+	width: 100%;
+}
+// margin-top
+.mt10 {
+	margin-top: 10rpx;
+}
+.mt30 {
+	margin-top: 30rpx;
+}
+.mt50 {
+	margin-top: 50rpx;
+}
+.mt60 {
+	margin-top: 60rpx;
+}
+// color
+.c-2 {
+	color: #222 !important;
+}
+.c-9 {
+	color: #999 !important;
+}
+.c-del {
+	color: #FF2020 !important;
+}
+.c-f {
+	color: #fff !important;
+}
+// flex
+.nqk-flex {
+	display: flex; 
+	align-items: center;
+	justify-content: space-between;
+}
+.nqk-flex-base {
+	display: flex;
+	align-items: center;
+}
+// padding
+.pd30 {
+	padding: 30rpx;
+}
+// font-size
+.f-24 {
+	font-size: 24rpx;
+}
+.f-26 {
+	font-size: 26rpx;
+}
+.f-28 {
+	font-size: 28rpx;
+}
+.f-34 {
+	font-size: 34rpx;
+}
+.f-48 {
+	font-size: 48rpx;
+}
+// text-align
+.center {
+	text-align: center;
+}
+// other
+.blod {
+	font-weight: 600;
+}
