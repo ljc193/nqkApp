@@ -1,6 +1,6 @@
 <template>
 	<view class="nqk_home">
-		<view class="status_bar"><!-- 这里是状态栏 --></view>
+		<view class="status_bar-fixd"><!-- 这里是状态栏 --></view>
 		<!-- 头部 -->
 		<Header/>
 		<!-- 轮播 -->
@@ -24,7 +24,7 @@
 		<!-- 产品介绍 -->
 		<view class="mt50">
 			<view class="c-2 f-34 blod">产品介绍</view>
-			<view class="mt30" v-for="i in 5" :key = "i">
+			<view class="mt30" v-for="i in 5" :key = "i" @click = "goDetail">
 				<Product/>
 			</view>
 		</view>
@@ -70,7 +70,11 @@
 		onLoad() {
 		},
 		methods: {
-
+			goDetail() { // 跳转产品详情
+				uni.navigateTo({
+					url:"/components/productInfo/index"
+				})
+			}
 		}
 	}
 </script>
@@ -78,7 +82,6 @@
 <style lang="scss" scoped>
 	.nqk_home {
 		padding: 0 30rpx 60rpx;
-		background: #F6F6F6;
 		min-height: 100%;
 		box-sizing: border-box;
 		&_hot {

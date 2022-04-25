@@ -17,15 +17,21 @@
 			"style": { 
 				"navigationBarTitleText": "hello"
 			}
-		}
-	    ,{
+		},
+		{
             "path" : "pages/user/index",
-            "style" :                                                                                    
-            {
+            "style" :{
                 "navigationBarTitleText": "dd"
             }
             
-        }
+        },
+		{
+		    "path" : "components/productInfo/index",
+		    "style": {
+		    	"navigationStyle": "custom"
+		    }
+		    
+		}
     ],
 	"tabBar": {
 		"color": "#999999",

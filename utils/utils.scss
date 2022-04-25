@@ -1,21 +1,57 @@
 
 // 状态栏样式
+.status_bar-fixd {
+	height: var(--status-bar-height);
+	width: 100%;
+	background: #fff;  
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
 .status_bar {
 	height: var(--status-bar-height);
 	width: 100%;
 }
-// margin-top
+// margin
 .mt10 {
 	margin-top: 10rpx;
 }
+.mt15 {
+	margin-top: 15rpx;
+}
+.mt20 {
+	margin-top: 20rpx;
+}
 .mt30 {
 	margin-top: 30rpx;
+}
+.mt36 {
+	margin-top: 36rpx;
+}
+.mt40 {
+	margin-top: 40rpx;
 }
 .mt50 {
 	margin-top: 50rpx;
 }
 .mt60 {
 	margin-top: 60rpx;
+}
+.ml10 {
+	margin-left: 10rpx;
+}
+.ml20 {
+	margin-left: 20rpx;
+}
+.ml24 {
+	margin-left: 24rpx;
+}
+.ml40 {
+	margin-left: 40rpx;
+}
+.ml124 {
+	margin-left: 124rpx;
 }
 // color
 .c-2 {
@@ -54,6 +90,9 @@
 .f-28 {
 	font-size: 28rpx;
 }
+.f-30 {
+	font-size: 30rpx;
+}
 .f-34 {
 	font-size: 34rpx;
 }
@@ -67,4 +106,24 @@
 // other
 .blod {
 	font-weight: 600;
+}
+.nqk-card {
+	border-radius: 20rpx;
+	padding: 30rpx;
+	background: #fff;
+}
+.line {
+	height: 2rpx;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.1);
+}
+.fixed-top {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	top: var(--status-bar-height);
+	background: #fff;
+	z-index: 999;
 }

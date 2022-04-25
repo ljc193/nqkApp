@@ -8,14 +8,21 @@
 			</view>
 		</view>
 		<view>
-			<text class="f-24 c-del">¥</text>
-			<text class="c-del f-48">998</text>
-			<text class="c-9 f-24">/件</text>
+			<Num :num="998" unit="/件" />
 		</view>
 	</view>
 </template>
 
 <script>
+	import Num from "@/components/productInfo/num.vue"
+	export default {
+		components: {Num},
+		data() {
+			return {
+				
+			}
+		}
+	}
 </script>
 
 <style lang="scss" scoped>

@@ -19,7 +19,8 @@
 	/* utils.scss */
 	@import "/utils/utils.scss";
 	page {
-		height: 100% !important;
+		min-height: 100% !important;
+		background: #F6F6F6;
 		position: relative;
 	}
 </style>

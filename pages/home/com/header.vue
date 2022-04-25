@@ -1,17 +1,19 @@
 <template>
-	<view class = "nqk_home_nav">
-		<image src="/static/home/top_title.png" alt="" class = "nqk_home_nav_left">
-		<view class = "nqk_home_nav_center">
-			<u--input
-			    placeholder="请输入内容"
-			    border="surround"
-			    v-model="keyword"
-				shape = "circle"
-				placeholderStyle = "fontSize:28rpx"
-				:custom-style = "inputCustom"
-			></u--input>
+	<view class="fixed-top">
+		<view class = "nqk_home_nav">
+			<image src="/static/home/top_title.png" alt="" class = "nqk_home_nav_left">
+			<view class = "nqk_home_nav_center">
+				<u--input
+				    placeholder="请输入内容"
+				    border="surround"
+				    v-model="keyword"
+					shape = "circle"
+					placeholderStyle = "fontSize:28rpx"
+					:custom-style = "inputCustom"
+				></u--input>
+			</view>
+			<image src="/static/home/scan.png" alt="" class = "nqk_home_nav_right">
 		</view>
-		<image src="/static/home/scan.png" alt="" class = "nqk_home_nav_right">
 	</view>
 </template>
 
